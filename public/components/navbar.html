@@ -1,0 +1,61 @@
+<header class="fixed top-0 left-0 w-full z-50 bg-slate-950/90 border-b border-white/10 backdrop-blur">
+  <div class="max-w-7xl mx-auto px-6">
+    <!-- TOP BAR -->
+    <div class="flex items-center justify-between h-20">
+      <!-- LOGO -->
+      <a href="/public/" class="flex flex-col leading-tight">
+        <span class="text-xl font-extrabold tracking-wide">ABU BERKAH</span>
+        <span class="text-xs text-orange-500 font-medium">ELECTRICAL & MECHANICAL</span>
+      </a>
+
+      <!-- DESKTOP NAV -->
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="#hero" class="text-sm text-slate-300 hover:text-orange-500 transition">
+          <i class="fa-solid fa-house mr-1"></i> Beranda
+        </a>
+
+        <a href="#services" class="text-sm text-slate-300 hover:text-orange-500 transition">
+          <i class="fa-solid fa-bolt mr-1"></i> Layanan
+        </a>
+
+        <a href="#about" class="text-sm text-slate-300 hover:text-orange-500 transition">
+          <i class="fa-solid fa-building mr-1"></i> Tentang
+        </a>
+
+        <a href="#portfolio" class="text-sm text-slate-300 hover:text-orange-500 transition">
+          <i class="fa-solid fa-briefcase mr-1"></i> Proyek
+        </a>
+
+        <a href="#contact" class="text-sm text-slate-300 hover:text-orange-500 transition">
+          <i class="fa-solid fa-phone mr-1"></i> Kontak
+        </a>
+      </nav>
+
+      <!-- CTA -->
+      <a
+        href="https://wa.me/6287886601667"
+        class="hidden md:flex items-center gap-2 px-5 py-3 rounded-xl bg-orange-500 hover:bg-orange-600 font-semibold transition"
+      >
+        <i class="fa-brands fa-whatsapp"></i>
+        Hubungi Kami
+      </a>
+
+      <!-- HAMBURGER -->
+      <button id="hamburger" class="md:hidden text-slate-300 text-xl">
+        <i id="hamburgerIcon" class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- MOBILE MENU (INI DIPISAH) -->
+    <div
+      id="mobileMenu"
+      class="md:hidden max-h-0 overflow-hidden opacity-0 transition-all duration-300 ease-in-out flex flex-col gap-4 py-0 border-t border-white/10 text-slate-300"
+    >
+      <a href="#hero" class="hover:text-orange-500">Home</a>
+      <a href="#services" class="hover:text-orange-500">Layanan</a>
+      <a href="#about" class="hover:text-orange-500">Tentang</a>
+      <a href="#portfolio" class="hover:text-orange-500">Proyek</a>
+      <a href="#contact" class="hover:text-orange-500">Kontak</a>
+    </div>
+  </div>
+</header>

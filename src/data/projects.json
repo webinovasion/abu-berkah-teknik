@@ -1,0 +1,20 @@
+[
+  {
+    "title": "HVAC Installation – Retail Project",
+    "description": "Instalasi sistem HVAC untuk gedung retail dengan fokus pada efisiensi pendinginan dan distribusi udara.",
+    "scope": "Ducting, AC System, Airflow Balancing",
+    "image": "assets/images/projects/Project-1.jpeg"
+  },
+  {
+    "title": "Electrical Installation – Commercial Building",
+    "description": "Instalasi sistem kelistrikan lengkap untuk gedung komersial termasuk panel distribusi dan wiring.",
+    "scope": "Panel, Wiring, Power Distribution",
+    "image": "assets/images/projects/Project-2.jpeg"
+  },
+  {
+    "title": "Maintenance AC – Multi Unit System",
+    "description": "Perawatan sistem AC multi-unit untuk menjaga performa pendinginan tetap optimal.",
+    "scope": "Cleaning, Service, Optimization",
+    "image": "assets/images/projects/Project-3.jpeg"
+  }
+]
