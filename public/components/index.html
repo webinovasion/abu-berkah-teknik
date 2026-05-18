@@ -59,7 +59,7 @@
           <div class="bg-white/5 border border-white/10 rounded-xl p-4">
             <div class="flex items-center gap-2 text-orange-500 font-bold text-2xl">
               <i class="fa-solid fa-calendar-check"></i>
-              5+
+              10+
             </div>
             <p class="text-slate-400 text-sm mt-2">Tahun Pengalaman</p>
           </div>
@@ -351,26 +351,35 @@
     <div class="bg-white/5 border border-white/10 rounded-2xl p-8">
       <h3 class="text-xl font-bold mb-6">Kirim Pesan</h3>
 
-      <form class="space-y-4">
+      <form id="waForm" class="space-y-4">
         <input
           type="text"
+          id="name"
           placeholder="Nama"
           class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-white/10 focus:border-orange-500 outline-none"
+          required
         />
 
         <input
           type="email"
+          id="email"
           placeholder="Email"
           class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-white/10 focus:border-orange-500 outline-none"
+          required
         />
 
         <textarea
+          id="message"
           placeholder="Pesan"
           class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-white/10 focus:border-orange-500 outline-none h-32"
+          required
         ></textarea>
 
-        <button type="submit" class="w-full py-3 rounded-xl bg-orange-500 hover:bg-orange-600 font-semibold transition">
-          Kirim Pesan
+        <button
+          type="submit"
+          class="w-full py-3 rounded-xl bg-orange-500 hover:bg-orange-600 font-semibold transition"
+        >
+          Kirim via WhatsApp
         </button>
       </form>
     </div>

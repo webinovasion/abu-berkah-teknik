@@ -50,6 +50,7 @@ async function initApp() {
 
   initScrollEffect();
   initScrollSpy();
+  initWhatsAppForm();
 
   loadProjects();
 }
@@ -215,3 +216,54 @@ async function loadProjects() {
     console.error("Failed to load projects:", error);
   }
 }
+
+function initWhatsAppForm() {
+
+  const waForm = document.getElementById("waForm");
+
+  if (!waForm) return;
+
+  waForm.addEventListener("submit", function (e) {
+
+    e.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    // VALIDASI
+    if (!name || !email || !message) {
+      alert("Harap lengkapi semua field.");
+      return;
+    }
+
+    // TEMPLATE PESAN
+    const text = `
+Halo Abuberkah Teknik,
+
+Saya ingin konsultasi project.
+
+Nama: ${name}
+Email: ${email}
+
+Pesan:
+${message}
+    `;
+
+    // NOMOR WHATSAPP
+    const phoneNumber = "6285881582774";
+
+    // ENCODE
+    const encodedText = encodeURIComponent(text);
+
+    // OPEN WA
+    window.open(
+      `https://wa.me/${phoneNumber}?text=${encodedText}`,
+      "_blank"
+    );
+
+    // RESET
+    waForm.reset();
+  });
+}
+
