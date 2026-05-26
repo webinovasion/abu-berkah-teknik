@@ -1,387 +1,617 @@
-<!-- HERO -->
-<section id="hero" class="relative min-h-screen flex items-center pt-32">
-  <!-- CONTENT -->
-  <div class="relative max-w-7xl mx-auto px-6 w-full">
-    <div class="grid lg:grid-cols-2 gap-14 items-center">
-      <!-- LEFT -->
-      <div>
-        <!-- BADGE -->
-        <span
-          class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-orange-500/30 bg-orange-500/10 text-orange-400 text-sm font-medium mb-6"
+<section class="relative min-h-screen flex flex-col justify-end overflow-hidden bg-primary-dark">
+  <img
+    src="/public/assets/images/hero/Hero-Section.webp"
+    alt="Hero-Section"
+    aria-hidden="true"
+    class="absolute inset-0 w-full h-full object-cover object-[center_30%] brightness-[0.45] saturate-[0.8]"
+  />
+
+  <div class="absolute inset-0 bg-gradient-to-b from-primary-dark/30 via-primary-dark/20 to-primary-dark/95"></div>
+  <div class="absolute inset-0 bg-gradient-to-r from-primary-dark/70 via-primary-dark/30 to-transparent"></div>
+  <div
+    class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff0a_1px,transparent_1px),linear-gradient(to_bottom,#ffffff0a_1px,transparent_1px)] bg-[size:60px_60px]"
+  ></div>
+
+  <div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-36 pb-12">
+    <!-- EYEBROW -->
+    <div class="inline-flex items-center gap-2 mb-4">
+      <span class="w-1.5 h-1.5 rounded-full bg-accent-orange flex-shrink-0"></span>
+      <span
+        class="text-[10px] sm:text-[11px] font-semibold uppercase tracking-[0.15em] sm:tracking-[0.25em] text-accent-orange leading-none"
+      >
+        Mechanical · Electrical · Civil
+      </span>
+    </div>
+
+    <!-- HEADING -->
+    <h1
+      class="text-[28px] xs:text-3xl sm:text-4xl lg:text-[52px] font-extrabold leading-[1.15] tracking-tight text-white mb-4 max-w-2xl"
+    >
+      Engineering Contractor untuk
+      <span class="text-accent-orange">Proyek Industri</span>
+      dan Komersial
+    </h1>
+
+    <!-- DESC -->
+    <p class="text-sm sm:text-[15px] leading-relaxed text-neutral-400 max-w-lg mb-7">
+      CV Abu Berkah Teknik menyediakan solusi mekanikal, elektrikal, HVAC, dan konstruksi dengan standar pengerjaan
+      profesional untuk kebutuhan industri, retail, dan bangunan komersial.
+    </p>
+
+    <!-- CTA -->
+    <div class="flex flex-col min-[360px]:flex-row flex-wrap gap-2.5 mb-10">
+      <a
+        href="https://wa.me/6287886601667"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-accent-orange text-white font-semibold text-sm hover:opacity-90 transition-opacity duration-200"
+      >
+        <i class="fa-brands fa-whatsapp text-base"></i>
+        Konsultasi Proyek
+      </a>
+      <a
+        href="/public/pages/proyek/"
+        class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-white/[0.08] backdrop-blur-sm border border-white/[0.18] text-neutral-300 text-sm hover:bg-white/[0.12] hover:text-white transition-all duration-200"
+      >
+        Lihat Proyek
+        <i class="fa-solid fa-arrow-right text-xs"></i>
+      </a>
+    </div>
+
+    <!-- STATS -->
+    <div class="grid grid-cols-3 gap-3 border-t border-white/10 pt-5">
+      <div class="min-w-0">
+        <span class="block text-xl sm:text-[26px] font-extrabold text-white leading-tight mb-1 truncate">50+</span>
+        <span class="block text-[10px] sm:text-[11.5px] text-neutral-500 leading-tight">Proyek Selesai</span>
+      </div>
+      <div class="min-w-0 border-x border-white/10 px-3">
+        <span class="block text-xl sm:text-[26px] font-extrabold text-white leading-tight mb-1 truncate">10+</span>
+        <span class="block text-[10px] sm:text-[11.5px] text-neutral-500 leading-tight">Tahun Pengalaman</span>
+      </div>
+      <div class="min-w-0">
+        <span class="block text-sm sm:text-lg font-extrabold text-white leading-tight mb-1 truncate">Jabodetabek</span>
+        <span class="block text-[10px] sm:text-[11.5px] text-neutral-500 leading-tight">Area Layanan</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING BADGE — hidden di bawah sm -->
+  <div
+    class="absolute bottom-12 right-4 sm:right-10 lg:right-16 hidden sm:flex items-center gap-3 bg-primary-dark/75 backdrop-blur-md border border-white/10 rounded-2xl px-4 py-3"
+  >
+    <div class="w-9 h-9 rounded-lg bg-accent-orange/15 flex items-center justify-center flex-shrink-0">
+      <i class="fa-solid fa-shield-halved text-accent-orange text-sm"></i>
+    </div>
+    <div>
+      <div class="text-xs font-bold text-white leading-tight">Bersertifikat</div>
+      <div class="text-[11px] text-neutral-500">ISO & K3 Certified</div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-24 bg-surface-light">
+  <div class="container">
+    <!-- HEADER -->
+    <div class="max-w-2xl mb-14">
+      <div class="inline-flex items-center gap-2 mb-4">
+        <span class="w-1.5 h-1.5 rounded-full bg-accent-orange flex-shrink-0"></span>
+        <span class="text-[11px] font-semibold uppercase tracking-[0.2em] text-accent-orange">Layanan Kami</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-primary-dark leading-tight tracking-tight mb-4">
+        Layanan Engineering &amp; Technical Solution
+      </h2>
+      <p class="text-[15px] text-neutral-500 leading-relaxed">
+        Solusi mekanikal, elektrikal, HVAC, plumbing, dan pengadaan barang teknik untuk kebutuhan industri, komersial,
+        dan bangunan modern.
+      </p>
+    </div>
+
+    <!-- GRID -->
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- FEATURED CARD -->
+      <div class="md:col-span-2 bg-primary-dark rounded-2xl p-7 flex flex-col">
+        <span class="text-[10px] font-semibold uppercase tracking-[0.15em] text-accent-orange mb-4">Core Service</span>
+        <div
+          class="w-10 h-10 rounded-xl bg-accent-orange/15 flex items-center justify-center text-accent-orange text-lg mb-5 flex-shrink-0"
         >
-          <i class="fa-solid fa-screwdriver-wrench"></i>
-          Professional Mechanical & Electrical Solution
-        </span>
-
-        <!-- TITLE -->
-        <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
-          Solusi
-          <span class="text-orange-500">Mechanical & Electrical</span>
-          Profesional dan Terpercaya
-        </h1>
-
-        <!-- DESC -->
-        <p class="text-lg text-slate-300 leading-relaxed mb-10 max-w-2xl">
-          CV Abu Berkah Teknik bergerak di bidang mekanikal, elektrikal, maintenance AC, dan pengadaan barang teknik
-          dengan dukungan tenaga profesional serta peralatan modern untuk memenuhi kebutuhan industri, komersial, dan
-          bangunan retail.
+          <i class="fa-solid fa-fan"></i>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-3 leading-snug">HVAC System &amp; Ducting Installation</h3>
+        <p class="text-sm text-neutral-400 leading-relaxed flex-1">
+          Desain, instalasi, dan maintenance sistem HVAC untuk gedung industri, komersial, dan retail dengan standar
+          engineering profesional dan garansi purna jual.
         </p>
-
-        <!-- CTA -->
-        <div class="flex flex-wrap gap-4">
-          <a
-            href="https://wa.me/6287886601667"
-            class="flex items-center gap-2 px-7 py-4 rounded-2xl bg-orange-500 hover:bg-orange-600 transition font-semibold"
-          >
-            <i class="fa-brands fa-whatsapp"></i>
-            Konsultasi Sekarang
-          </a>
-
-          <a
-            href="#portfolio"
-            class="flex items-center gap-2 px-7 py-4 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition font-semibold"
-          >
-            <i class="fa-solid fa-briefcase"></i>
-            Lihat Proyek
-          </a>
+        <div class="flex flex-wrap gap-1.5 mt-5">
+          <span class="px-2.5 py-1 text-[11px] bg-white/[0.07] text-neutral-400 rounded-full">Ducting</span>
+          <span class="px-2.5 py-1 text-[11px] bg-white/[0.07] text-neutral-400 rounded-full">Ventilation</span>
+          <span class="px-2.5 py-1 text-[11px] bg-white/[0.07] text-neutral-400 rounded-full">Cooling System</span>
+          <span class="px-2.5 py-1 text-[11px] bg-white/[0.07] text-neutral-400 rounded-full">Maintenance</span>
         </div>
-
-        <!-- STATS -->
-        <div class="grid grid-cols-3 gap-6 mt-14">
-          <div class="bg-white/5 border border-white/10 rounded-xl p-4">
-            <div class="flex items-center gap-2 text-orange-500 font-bold text-2xl">
-              <i class="fa-solid fa-diagram-project"></i>
-              50+
-            </div>
-            <p class="text-slate-400 text-sm mt-2">Proyek Selesai</p>
-          </div>
-
-          <div class="bg-white/5 border border-white/10 rounded-xl p-4">
-            <div class="flex items-center gap-2 text-orange-500 font-bold text-2xl">
-              <i class="fa-solid fa-calendar-check"></i>
-              10+
-            </div>
-            <p class="text-slate-400 text-sm mt-2">Tahun Pengalaman</p>
-          </div>
-
-          <div class="bg-white/5 border border-white/10 rounded-xl p-4">
-            <div class="flex items-center gap-2 text-orange-500 font-bold text-2xl">
-              <i class="fa-solid fa-star"></i>
-              100%
-            </div>
-            <p class="text-slate-400 text-sm mt-2">Kepuasan Klien</p>
-          </div>
-        </div>
+        <a
+          href="/pages/layanan/hvac/"
+          class="inline-flex items-center gap-1.5 mt-5 text-[12.5px] font-semibold text-accent-orange"
+        >
+          Lihat detail layanan
+          <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
       </div>
 
-      <!-- RIGHT -->
-      <div class="relative">
-        <div class="rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+      <!-- SECONDARY CARDS -->
+      <div
+        class="bg-white border border-neutral-200 rounded-2xl p-6 shadow-card flex flex-col hover:shadow-soft hover:border-neutral-300 transition-all duration-200"
+      >
+        <div
+          class="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-accent-orange text-lg mb-4 flex-shrink-0"
+        >
+          <i class="fa-solid fa-bolt"></i>
+        </div>
+        <h3 class="text-[15px] font-bold text-primary-dark mb-2">Electrical Installation</h3>
+        <p class="text-[13.5px] text-neutral-500 leading-relaxed flex-1">
+          Instalasi sistem kelistrikan industri dan komersial sesuai standar PLN dan K3.
+        </p>
+        <a
+          href="/pages/layanan/electrical/"
+          class="inline-flex items-center gap-1.5 mt-4 text-[12.5px] font-semibold text-accent-blue"
+        >
+          Pelajari <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <div
+        class="bg-white border border-neutral-200 rounded-2xl p-6 shadow-card flex flex-col hover:shadow-soft hover:border-neutral-300 transition-all duration-200"
+      >
+        <div
+          class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-accent-blue text-lg mb-4 flex-shrink-0"
+        >
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+        </div>
+        <h3 class="text-[15px] font-bold text-primary-dark mb-2">AC Maintenance</h3>
+        <p class="text-[13.5px] text-neutral-500 leading-relaxed flex-1">
+          Service dan perawatan AC berkala dengan teknisi berpengalaman dan suku cadang original.
+        </p>
+        <a
+          href="/pages/layanan/ac-maintenance/"
+          class="inline-flex items-center gap-1.5 mt-4 text-[12.5px] font-semibold text-accent-blue"
+        >
+          Pelajari <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <div
+        class="bg-white border border-neutral-200 rounded-2xl p-6 shadow-card flex flex-col hover:shadow-soft hover:border-neutral-300 transition-all duration-200"
+      >
+        <div
+          class="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-accent-orange text-lg mb-4 flex-shrink-0"
+        >
+          <i class="fa-solid fa-gears"></i>
+        </div>
+        <h3 class="text-[15px] font-bold text-primary-dark mb-2">Mechanical Work</h3>
+        <p class="text-[13.5px] text-neutral-500 leading-relaxed flex-1">
+          Instalasi dan perbaikan sistem mekanikal bangunan industri dan komersial.
+        </p>
+        <a
+          href="/pages/layanan/mechanical/"
+          class="inline-flex items-center gap-1.5 mt-4 text-[12.5px] font-semibold text-accent-blue"
+        >
+          Pelajari <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <div
+        class="bg-white border border-neutral-200 rounded-2xl p-6 shadow-card flex flex-col hover:shadow-soft hover:border-neutral-300 transition-all duration-200"
+      >
+        <div
+          class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-accent-blue text-lg mb-4 flex-shrink-0"
+        >
+          <i class="fa-solid fa-faucet-drip"></i>
+        </div>
+        <h3 class="text-[15px] font-bold text-primary-dark mb-2">Plumbing System</h3>
+        <p class="text-[13.5px] text-neutral-500 leading-relaxed flex-1">
+          Instalasi sistem air bersih, air kotor, dan perpipaan sesuai standar bangunan.
+        </p>
+        <a
+          href="/pages/layanan/plumbing/"
+          class="inline-flex items-center gap-1.5 mt-4 text-[12.5px] font-semibold text-accent-blue"
+        >
+          Pelajari <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <div
+        class="bg-white border border-neutral-200 rounded-2xl p-6 shadow-card flex flex-col hover:shadow-soft hover:border-neutral-300 transition-all duration-200"
+      >
+        <div
+          class="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center text-accent-orange text-lg mb-4 flex-shrink-0"
+        >
+          <i class="fa-solid fa-boxes-stacked"></i>
+        </div>
+        <h3 class="text-[15px] font-bold text-primary-dark mb-2">Procurement</h3>
+        <p class="text-[13.5px] text-neutral-500 leading-relaxed flex-1">
+          Pengadaan material dan equipment teknik dari supplier terpercaya dengan harga kompetitif.
+        </p>
+        <a
+          href="/pages/layanan/procurement/"
+          class="inline-flex items-center gap-1.5 mt-4 text-[12.5px] font-semibold text-accent-blue"
+        >
+          Pelajari <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- SECTION CTA -->
+    <div
+      class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mt-12 pt-8 border-t border-neutral-200"
+    >
+      <div>
+        <p class="font-bold text-primary-dark mb-1">Butuh layanan yang tidak tercantum?</p>
+        <p class="text-sm text-neutral-500">Konsultasikan kebutuhan teknis Anda dengan tim kami.</p>
+      </div>
+      <a
+        href="https://wa.me/6287886601667"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-5 py-3 bg-primary-dark text-white text-sm font-semibold rounded-xl hover:opacity-90 transition-opacity duration-200 whitespace-nowrap flex-shrink-0"
+      >
+        <i class="fa-brands fa-whatsapp text-base"></i>
+        Konsultasi Sekarang
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="py-24 bg-surface-light" id="portfolio">
+  <div class="container">
+    <!-- HEADER -->
+    <div class="max-w-2xl mb-14">
+      <div class="inline-flex items-center gap-2 mb-4">
+        <span class="w-1.5 h-1.5 rounded-full bg-accent-orange flex-shrink-0"></span>
+        <span class="text-[11px] font-semibold uppercase tracking-[0.2em] text-accent-orange">Portofolio</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-primary-dark leading-tight tracking-tight mb-4">
+        Proyek yang Telah Kami Kerjakan
+      </h2>
+      <p class="text-[15px] text-neutral-500 leading-relaxed">
+        Beberapa proyek mekanikal dan elektrikal yang telah kami selesaikan di sektor industri, komersial, dan retail.
+      </p>
+    </div>
+
+    <!-- GRID -->
+    <div id="portfolioGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- skeleton -->
+      <div class="h-72 rounded-2xl bg-neutral-100 animate-pulse"></div>
+      <div class="h-72 rounded-2xl bg-neutral-100 animate-pulse"></div>
+      <div class="h-72 rounded-2xl bg-neutral-100 animate-pulse"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <div
+      class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mt-10 pt-8 border-t border-neutral-200"
+    >
+      <div>
+        <p class="font-bold text-primary-dark mb-1">Ingin lihat semua proyek kami?</p>
+        <p class="text-sm text-neutral-500">50+ proyek telah diselesaikan di area Jabodetabek.</p>
+      </div>
+
+      <a
+        href="/public/pages/proyek/"
+        class="inline-flex items-center gap-2 px-5 py-3 bg-primary-dark text-white text-sm font-semibold rounded-xl hover:opacity-90 transition-opacity duration-200 whitespace-nowrap flex-shrink-0"
+      >
+        Lihat Semua Proyek
+        <i class="fa-solid fa-arrow-right text-xs"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="py-24 bg-surface-light">
+  <div class="container">
+    <div class="grid lg:grid-cols-2 gap-16 xl:gap-24 items-center">
+      <!-- TEXT -->
+      <div>
+        <div class="inline-flex items-center gap-2 mb-4">
+          <span class="w-1.5 h-1.5 rounded-full bg-accent-orange flex-shrink-0"></span>
+          <span class="text-[11px] font-semibold uppercase tracking-[0.2em] text-accent-orange">Tentang Kami</span>
+        </div>
+
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-primary-dark leading-tight tracking-tight mb-4">
+          Engineering Solution untuk Kebutuhan Industri Modern
+        </h2>
+
+        <p class="text-[15px] text-neutral-500 leading-relaxed mb-8">
+          CV ABU BERKAH TEKNIK adalah perusahaan yang bergerak di bidang mekanikal, elektrikal, dan pengadaan barang.
+          Perusahaan kami memiliki sumber daya manusia yang handal, berpengalaman, dan profesional. Selain itu, juga
+          didukung dengan alat-alat canggih dalam proses pengerjaan nya. Perusahaan kami siap untuk memberikan pelayanan
+          jasa dan pengadaan barang yang terbaik dan sesuai dengan keinginan serta kebutuhan customer/pelanggan.
+        </p>
+
+        <p class="text-[15px] text-neutral-500 leading-relaxed mb-8">
+          CV. ABU BERKAH TEKNIK merupakan salah satu perusahaan yang sedang tumbuh dan berkembang. Kehadiran perusahaan
+          kami diharapkan mampu memberikan pelayanan terbaik untuk jasa service, pengadaan barang, dan elektrik lainnya.
+        </p>
+
+        <!-- POIN KEUNGGULAN -->
+        <div class="flex flex-col gap-4 mb-8">
+          <div class="flex items-start gap-3.5">
+            <div
+              class="w-[34px] h-[34px] rounded-[9px] bg-orange-50 flex items-center justify-center text-accent-orange flex-shrink-0 mt-0.5"
+            >
+              <i class="fa-solid fa-shield-halved text-sm"></i>
+            </div>
+            <div>
+              <p class="text-sm font-bold text-primary-dark mb-0.5">Berpengalaman &amp; Bersertifikat</p>
+              <p class="text-sm text-neutral-500 leading-relaxed">
+                Lebih dari 10 tahun pengalaman dengan tim teknisi bersertifikat K3 dan berlisensi resmi.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3.5">
+            <div
+              class="w-[34px] h-[34px] rounded-[9px] bg-orange-50 flex items-center justify-center text-accent-orange flex-shrink-0 mt-0.5"
+            >
+              <i class="fa-solid fa-clock text-sm"></i>
+            </div>
+            <div>
+              <p class="text-sm font-bold text-primary-dark mb-0.5">Tepat Waktu &amp; Responsif</p>
+              <p class="text-sm text-neutral-500 leading-relaxed">
+                Komitmen penyelesaian proyek sesuai jadwal dengan tim yang siap konsultasi teknis kapan pun.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3.5">
+            <div
+              class="w-[34px] h-[34px] rounded-[9px] bg-orange-50 flex items-center justify-center text-accent-orange flex-shrink-0 mt-0.5"
+            >
+              <i class="fa-solid fa-award text-sm"></i>
+            </div>
+            <div>
+              <p class="text-sm font-bold text-primary-dark mb-0.5">Standar Profesional</p>
+              <p class="text-sm text-neutral-500 leading-relaxed">
+                Setiap proyek dikerjakan sesuai standar nasional dengan garansi purna jual.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="/public/pages/tentang/"
+          class="inline-flex items-center gap-2 px-5 py-3 bg-primary-dark text-white text-sm font-semibold rounded-xl hover:opacity-90 transition-opacity duration-200"
+        >
+          Tentang Kami
+          <i class="fa-solid fa-arrow-right text-xs"></i>
+        </a>
+      </div>
+
+      <!-- IMAGE -->
+      <div class="relative mt-8 lg:mt-0">
+        <div class="rounded-2xl overflow-hidden border border-neutral-200 aspect-[4/5]">
           <img
-            src="assets/images/hero/Hero-Section.webp"
-            alt="Engineering"
-            class="w-full h-[650px] object-cover"
-            loading="lazy"
+            src="/public/assets/images/about/About-Section.webp"
+            alt="Tim teknisi CV Abu Berkah Teknik"
+            class="w-full h-full object-cover"
           />
         </div>
 
-        <!-- FLOAT CARD -->
-        <div class="absolute -bottom-8 -left-8 bg-slate-900 border border-white/10 rounded-2xl p-6 shadow-2xl">
-          <p class="text-sm text-slate-400 mb-2 flex items-center gap-2">
-            <i class="fa-solid fa-bolt text-orange-500"></i>
-            Proyek Terbaru
-          </p>
+        <!-- FLOATING STAT KIRI BAWAH -->
+        <div
+          class="absolute -bottom-4 -left-4 sm:left-auto sm:-left-6 flex items-center gap-3 bg-white border border-neutral-200 rounded-2xl px-4 py-3 shadow-card"
+        >
+          <div
+            class="w-9 h-9 rounded-lg bg-orange-50 flex items-center justify-center text-accent-orange flex-shrink-0"
+          >
+            <i class="fa-solid fa-briefcase text-sm"></i>
+          </div>
+          <div>
+            <div class="text-lg font-extrabold text-primary-dark leading-tight">50+</div>
+            <div class="text-[11px] text-neutral-400">Proyek Selesai</div>
+          </div>
+        </div>
 
-          <h3 class="font-bold text-lg mb-1">The Body Shop Makassar</h3>
-
-          <p class="text-sm text-orange-400 flex items-center gap-2">
-            <i class="fa-solid fa-fan"></i>
-            Ducting Installation
-          </p>
+        <!-- FLOATING STAT KANAN ATAS -->
+        <div
+          class="absolute -top-4 -right-4 sm:-right-6 flex items-center gap-3 bg-primary-dark border border-white/10 rounded-2xl px-4 py-3"
+        >
+          <div
+            class="w-9 h-9 rounded-lg bg-accent-orange/15 flex items-center justify-center text-accent-orange flex-shrink-0"
+          >
+            <i class="fa-solid fa-calendar text-sm"></i>
+          </div>
+          <div>
+            <div class="text-lg font-extrabold text-white leading-tight">10+</div>
+            <div class="text-[11px] text-neutral-500">Tahun Pengalaman</div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="services" class="py-24 px-6 bg-slate-900/30">
-  <div class="max-w-7xl mx-auto">
-    <!-- HEADER -->
-    <div class="text-center mb-16">
-      <h2 class="text-4xl md:text-5xl font-extrabold">Layanan <span class="text-orange-500">Kami</span></h2>
+<section class="py-24 bg-primary-dark relative overflow-hidden text-center" id="cta">
+  <!-- GLOW -->
+  <div
+    class="absolute -top-40 -right-40 w-[500px] h-[500px] bg-accent-orange rounded-full blur-3xl opacity-[0.12] pointer-events-none"
+  ></div>
+  <div
+    class="absolute -bottom-40 -left-40 w-[400px] h-[400px] bg-accent-blue rounded-full blur-3xl opacity-[0.06] pointer-events-none"
+  ></div>
 
-      <p class="text-slate-400 mt-4 max-w-2xl mx-auto">
-        Kami menyediakan layanan mekanikal, elektrikal, instalasi AC, maintenance, dan pengadaan barang teknik untuk
-        kebutuhan industri, komersial, dan bangunan retail.
-      </p>
+  <!-- GRID -->
+  <div
+    class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff06_1px,transparent_1px),linear-gradient(to_bottom,#ffffff06_1px,transparent_1px)] bg-[size:60px_60px] pointer-events-none"
+  ></div>
+
+  <div class="relative max-w-3xl mx-auto px-4 sm:px-6">
+    <!-- EYEBROW -->
+    <div class="inline-flex items-center gap-2 mb-5">
+      <span class="w-1.5 h-1.5 rounded-full bg-accent-orange flex-shrink-0"></span>
+      <span class="text-[11px] font-semibold uppercase tracking-[0.2em] text-accent-orange">Hubungi Kami</span>
     </div>
 
-    <!-- GRID -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- ITEM 1 -->
-      <div class="group bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-orange-500/40 transition">
-        <div class="text-orange-500 text-3xl mb-4">
-          <i class="fa-solid fa-bolt"></i>
-        </div>
-
-        <h3 class="text-xl font-bold mb-2">Instalasi Elektrikal</h3>
-
-        <p class="text-slate-400 text-sm leading-relaxed">
-          Pengerjaan instalasi sistem kelistrikan untuk kebutuhan industri, komersial, dan bangunan retail dengan
-          standar keamanan yang baik.
-        </p>
-
-        <div class="mt-4 text-xs text-orange-400">Panel • Wiring • Distribution</div>
-      </div>
-
-      <!-- ITEM 2 -->
-      <div class="group bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-orange-500/40 transition">
-        <div class="text-orange-500 text-3xl mb-4">
-          <i class="fa-solid fa-fan"></i>
-        </div>
-
-        <h3 class="text-xl font-bold mb-2">Instalasi AC & Ventilasi</h3>
-
-        <p class="text-slate-400 text-sm leading-relaxed">
-          Instalasi sistem pendingin dan ventilasi udara untuk menjaga kenyamanan serta sirkulasi udara yang optimal.
-        </p>
-
-        <div class="mt-4 text-xs text-orange-400">AC System • Ventilation • Ducting</div>
-      </div>
-
-      <!-- ITEM 3 -->
-      <div class="group bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-orange-500/40 transition">
-        <div class="text-orange-500 text-3xl mb-4">
-          <i class="fa-solid fa-screwdriver-wrench"></i>
-        </div>
-
-        <h3 class="text-xl font-bold mb-2">Reparasi & Service AC</h3>
-
-        <p class="text-slate-400 text-sm leading-relaxed">
-          Layanan perawatan dan perbaikan AC untuk menjaga performa pendinginan tetap optimal dan efisien.
-        </p>
-
-        <div class="mt-4 text-xs text-orange-400">Cleaning • Maintenance • Repair</div>
-      </div>
-
-      <!-- ITEM 4 -->
-      <div class="group bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-orange-500/40 transition">
-        <div class="text-orange-500 text-3xl mb-4">
-          <i class="fa-solid fa-gears"></i>
-        </div>
-
-        <h3 class="text-xl font-bold mb-2">Instalasi Mekanikal</h3>
-
-        <p class="text-slate-400 text-sm leading-relaxed">
-          Pengerjaan instalasi mekanikal untuk mendukung sistem operasional bangunan dan kebutuhan teknis lainnya.
-        </p>
-
-        <div class="mt-4 text-xs text-orange-400">Mechanical System • Installation</div>
-      </div>
-
-      <!-- ITEM 5 -->
-      <div class="group bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-orange-500/40 transition">
-        <div class="text-orange-500 text-3xl mb-4">
-          <i class="fa-solid fa-faucet-drip"></i>
-        </div>
-
-        <h3 class="text-xl font-bold mb-2">Instalasi Plumbing</h3>
-
-        <p class="text-slate-400 text-sm leading-relaxed">
-          Instalasi sistem perpipaan dan distribusi air untuk kebutuhan bangunan komersial maupun industri.
-        </p>
-
-        <div class="mt-4 text-xs text-orange-400">Piping • Water System • Plumbing</div>
-      </div>
-
-      <!-- ITEM 6 -->
-      <div class="group bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-orange-500/40 transition">
-        <div class="text-orange-500 text-3xl mb-4">
-          <i class="fa-solid fa-boxes-stacked"></i>
-        </div>
-
-        <h3 class="text-xl font-bold mb-2">Pengadaan Barang Teknik</h3>
-
-        <p class="text-slate-400 text-sm leading-relaxed">
-          Pengadaan unit AC, sprinkler, dan kebutuhan barang teknik lainnya sesuai spesifikasi dan kebutuhan proyek.
-        </p>
-
-        <div class="mt-4 text-xs text-orange-400">AC Unit • Sprinkler • Equipment</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-24 px-6 bg-slate-900/30" id="about">
-  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
-    <!-- LEFT: TEXT -->
-    <div>
-      <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Tentang <span class="text-orange-500">Kami</span></h2>
-
-      <p class="text-slate-300 leading-relaxed mb-6">
-        CV Abu Berkah Teknik merupakan perusahaan yang bergerak di bidang mekanikal, elektrikal, maintenance AC, dan
-        pengadaan barang teknik untuk kebutuhan industri, komersial, serta bangunan retail.
-      </p>
-
-      <p class="text-slate-400 leading-relaxed mb-8">
-        Didukung oleh sumber daya manusia yang handal, berpengalaman, dan profesional, kami berkomitmen memberikan
-        pelayanan terbaik dengan standar kerja yang aman, tepat, dan sesuai kebutuhan customer.
-      </p>
-
-      <!-- VALUE POINTS -->
-      <div class="space-y-4">
-        <div class="flex items-start gap-3">
-          <div class="w-2 h-2 mt-2 rounded-full bg-orange-500"></div>
-          <p class="text-slate-300">Tenaga kerja profesional dan berpengalaman di bidang teknik</p>
-        </div>
-
-        <div class="flex items-start gap-3">
-          <div class="w-2 h-2 mt-2 rounded-full bg-orange-500"></div>
-          <p class="text-slate-300">Didukung penggunaan alat modern untuk hasil kerja optimal</p>
-        </div>
-
-        <div class="flex items-start gap-3">
-          <div class="w-2 h-2 mt-2 rounded-full bg-orange-500"></div>
-          <p class="text-slate-300">Pelayanan cepat, amanah, dan berorientasi pada kepuasan pelanggan</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- RIGHT: VISUAL -->
-    <div class="relative">
-      <div class="rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-        <img
-          src="assets/images/about/About-Section.webp"
-          class="w-full h-[500px] object-cover"
-          alt="Engineering Team"
-        />
-      </div>
-
-      <!-- FLOAT CARD -->
-      <div class="absolute -bottom-8 -left-8 bg-slate-950 border border-white/10 rounded-2xl p-6 shadow-xl">
-        <p class="text-sm text-slate-400 mb-1">Core Focus</p>
-        <h3 class="text-lg font-bold text-orange-500">Mechanical & Electrical Solution</h3>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-24 px-6 bg-slate-950" id="portfolio">
-  <div class="max-w-7xl mx-auto">
-    <!-- HEADER -->
-    <div class="text-center mb-16">
-      <h2 class="text-4xl md:text-5xl font-extrabold">Proyek <span class="text-orange-500">Kami</span></h2>
-
-      <p class="text-slate-400 mt-4 max-w-2xl mx-auto">
-        Beberapa pekerjaan yang telah kami selesaikan pada sektor komersial dan retail dengan fokus pada kualitas dan
-        ketepatan teknis.
-      </p>
-    </div>
-
-    <!-- GRID -->
-    <div id="portfolioGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
-      
-    </div>
-  </div>
-</section>
-
-<section class="py-24 px-6 bg-gradient-to-r from-orange-500/10 to-slate-950" id="cta">
-  <div class="max-w-5xl mx-auto text-center">
-    <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
-      Butuh Solusi <span class="text-orange-500">Mechanical & Electrical</span>?
+    <!-- TITLE -->
+    <h2 class="text-4xl sm:text-5xl font-extrabold text-white leading-tight tracking-tight mb-4">
+      Siap Menangani Proyek
+      <span class="text-accent-orange">Mechanical &amp; Electrical</span>
     </h2>
 
-    <p class="text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-      Kami siap membantu instalasi, maintenance, dan perbaikan sistem teknik untuk proyek industri, komersial, maupun
-      retail dengan respons cepat dan hasil yang terukur.
+    <!-- DESC -->
+    <p class="text-[15px] text-neutral-400 max-w-xl mx-auto mb-10 leading-relaxed">
+      Kami menyediakan layanan engineering untuk instalasi, maintenance, dan perbaikan sistem pada sektor industri,
+      komersial, dan retail dengan standar kerja profesional.
     </p>
 
-    <div class="flex flex-col md:flex-row justify-center gap-4">
+    <!-- CTA -->
+    <div class="flex flex-col sm:flex-row justify-center items-center gap-3 mb-6">
       <a
         href="https://wa.me/6287886601667"
-        class="px-8 py-4 rounded-2xl bg-orange-500 hover:bg-orange-600 font-semibold transition"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-accent-orange text-white font-semibold text-sm hover:opacity-90 transition-opacity duration-200"
       >
-        Konsultasi Sekarang
+        <i class="fa-brands fa-whatsapp text-base"></i>
+        Konsultasi via WhatsApp
       </a>
-
       <a
-        href="#"
-        class="px-8 py-4 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition font-semibold"
+        href="/pages/proyek/"
+        class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-white/[0.06] border border-white/[0.12] text-neutral-300 font-semibold text-sm hover:bg-white/[0.10] hover:text-white transition-all duration-200"
       >
-        Lihat Portofolio
+        Lihat Proyek Kami
+        <i class="fa-solid fa-arrow-right text-xs"></i>
       </a>
     </div>
 
-    <p class="text-xs text-slate-500 mt-6">Respon cepat • Profesional • Siap survey lokasi</p>
+    <!-- TRUST LINE -->
+    <div class="inline-flex items-center gap-2.5">
+      <span class="text-xs text-neutral-500">Respon cepat</span>
+      <span class="w-1 h-1 rounded-full bg-neutral-700 flex-shrink-0"></span>
+      <span class="text-xs text-neutral-500">Engineering profesional</span>
+      <span class="w-1 h-1 rounded-full bg-neutral-700 flex-shrink-0"></span>
+      <span class="text-xs text-neutral-500">Survey lokasi tersedia</span>
+    </div>
   </div>
 </section>
 
-<section class="py-24 px-6 bg-slate-950" id="contact">
-  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
-    <!-- LEFT INFO -->
-    <div>
-      <h2 class="text-4xl md:text-5xl font-extrabold mb-6">Hubungi <span class="text-orange-500">Kami</span></h2>
-
-      <p class="text-slate-400 mb-8 leading-relaxed">
-        Konsultasi kebutuhan Mechanical & Electrical, request survey, atau diskusi proyek bisa langsung menghubungi kami
-        melalui kontak di bawah.
-      </p>
-
-      <div class="space-y-5 text-slate-300">
-        <div>
-          <p class="text-sm text-slate-500">WhatsApp</p>
-          <p class="font-semibold">+62 878 8660 1667</p>
+<section class="py-24 bg-surface-light" id="contact">
+  <div class="container">
+    <div class="grid lg:grid-cols-2 gap-12 xl:gap-16 items-start">
+      <!-- LEFT -->
+      <div>
+        <div class="inline-flex items-center gap-2 mb-4">
+          <span class="w-1.5 h-1.5 rounded-full bg-accent-orange flex-shrink-0"></span>
+          <span class="text-[11px] font-semibold uppercase tracking-[0.2em] text-accent-orange">Kontak</span>
         </div>
 
-        <div>
-          <p class="text-sm text-slate-500">Email</p>
-          <p class="font-semibold">abuberkahteknik@gmail.com</p>
-        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-primary-dark leading-tight tracking-tight mb-4">
+          Hubungi Tim Engineering Kami
+        </h2>
 
-        <div>
-          <p class="text-sm text-slate-500">Lokasi</p>
-          <p class="font-semibold">
-            Jalan Nusantara 3 No. 56, RT 12/RW 22, Kelurahan Harapan Jaya, Kecamatan Bekasi Utara, Kota Bekasi.
-          </p>
+        <p class="text-[15px] text-neutral-500 leading-relaxed mb-8">
+          Diskusi proyek, konsultasi teknis, atau request survey langsung hubungi kami melalui kontak berikut.
+        </p>
+
+        <!-- CONTACT LIST -->
+        <div class="flex flex-col">
+          <a
+            href="https://wa.me/6287886601667"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group flex items-center gap-4 py-4 border-t border-neutral-100 hover:border-neutral-200 transition-colors duration-150"
+          >
+            <div
+              class="w-10 h-10 rounded-[10px] bg-emerald-50 flex items-center justify-center text-emerald-600 text-base flex-shrink-0"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div>
+              <p class="text-[11px] text-neutral-400 mb-0.5">WhatsApp</p>
+              <p
+                class="text-sm font-semibold text-primary-dark group-hover:text-accent-orange transition-colors duration-150"
+              >
+                +62 878 8660 1667
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="mailto:abuberkahteknik@gmail.com"
+            class="group flex items-center gap-4 py-4 border-t border-neutral-100 hover:border-neutral-200 transition-colors duration-150"
+          >
+            <div
+              class="w-10 h-10 rounded-[10px] bg-blue-50 flex items-center justify-center text-accent-blue text-base flex-shrink-0"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <p class="text-[11px] text-neutral-400 mb-0.5">Email</p>
+              <p
+                class="text-sm font-semibold text-primary-dark group-hover:text-accent-orange transition-colors duration-150"
+              >
+                abuberkahteknik@gmail.com
+              </p>
+            </div>
+          </a>
+
+          <a
+            href="https://maps.google.com/?q=Bekasi+Utara,Kota+Bekasi"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="group flex items-center gap-4 py-4 border-t border-b border-neutral-100 hover:border-neutral-200 transition-colors duration-150"
+          >
+            <div
+              class="w-10 h-10 rounded-[10px] bg-orange-50 flex items-center justify-center text-accent-orange text-base flex-shrink-0"
+            >
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <p class="text-[11px] text-neutral-400 mb-0.5">Lokasi</p>
+              <p
+                class="text-sm font-semibold text-primary-dark group-hover:text-accent-orange transition-colors duration-150 leading-snug"
+              >
+                Bekasi Utara, Kota Bekasi, Jawa Barat
+              </p>
+            </div>
+          </a>
         </div>
       </div>
-    </div>
 
-    <!-- RIGHT FORM -->
-    <div class="bg-white/5 border border-white/10 rounded-2xl p-8">
-      <h3 class="text-xl font-bold mb-6">Kirim Pesan</h3>
+      <!-- RIGHT FORM -->
+      <div class="bg-white border border-neutral-200 rounded-2xl p-7 shadow-card">
+        <h3 class="text-[17px] font-bold text-primary-dark mb-5">Kirim Pesan</h3>
 
-      <form id="waForm" class="space-y-4">
-        <input
-          type="text"
-          id="name"
-          placeholder="Nama"
-          class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-white/10 focus:border-orange-500 outline-none"
-          required
-        />
+        <form id="waForm" class="space-y-3">
+          <input
+            type="text"
+            id="name"
+            placeholder="Nama Anda"
+            class="w-full px-4 py-3 rounded-xl border border-neutral-200 bg-white text-primary-dark text-sm placeholder-neutral-400 focus:border-accent-orange focus:outline-none transition-colors duration-150"
+            required
+          />
 
-        <input
-          type="email"
-          id="email"
-          placeholder="Email"
-          class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-white/10 focus:border-orange-500 outline-none"
-          required
-        />
+          <input
+            type="tel"
+            id="phone"
+            placeholder="Nomor Telepon (opsional)"
+            class="w-full px-4 py-3 rounded-xl border border-neutral-200 bg-white text-primary-dark text-sm placeholder-neutral-400 focus:border-accent-orange focus:outline-none transition-colors duration-150"
+          />
 
-        <textarea
-          id="message"
-          placeholder="Pesan"
-          class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-white/10 focus:border-orange-500 outline-none h-32"
-          required
-        ></textarea>
+          <textarea
+            id="message"
+            placeholder="Ceritakan kebutuhan proyek Anda..."
+            class="w-full px-4 py-3 rounded-xl border border-neutral-200 bg-white text-primary-dark text-sm placeholder-neutral-400 focus:border-accent-orange focus:outline-none transition-colors duration-150 h-28 resize-none"
+            required
+          ></textarea>
 
-        <button
-          type="submit"
-          class="w-full py-3 rounded-xl bg-orange-500 hover:bg-orange-600 font-semibold transition"
-        >
-          Kirim via WhatsApp
-        </button>
-      </form>
+          <button
+            type="submit"
+            class="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl bg-accent-orange text-white font-semibold text-sm hover:opacity-90 transition-opacity duration-200"
+          >
+            <i class="fa-brands fa-whatsapp text-base"></i>
+            Kirim via WhatsApp
+          </button>
+        </form>
+
+        <p class="text-[12px] text-neutral-400 text-center mt-3">Pesan akan diteruskan langsung ke WhatsApp kami</p>
+      </div>
     </div>
   </div>
 </section>

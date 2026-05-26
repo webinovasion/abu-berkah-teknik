@@ -1,20 +1,45 @@
 [
   {
-    "title": "HVAC Installation – Retail Project",
-    "description": "Instalasi sistem HVAC untuk gedung retail dengan fokus pada efisiensi pendinginan dan distribusi udara.",
-    "scope": "Ducting, AC System, Airflow Balancing",
-    "image": "assets/images/projects/Project-1.jpeg"
+    "id": 1,
+    "slug": "hvac-retail-project",
+    "title": "Instalasi HVAC & Ducting untuk Retail Modern",
+    "category": "HVAC",
+    "location": "Jakarta",
+    "year": "2025",
+    "description": "Pengerjaan sistem ventilasi dan pendingin untuk retail modern dengan fokus efisiensi distribusi udara dan stabilitas operasional.",
+    "scope": ["Ducting Installation", "AC System", "Airflow Balancing"],
+    "challenge": "Ruang plafon terbatas dengan kebutuhan airflow tinggi untuk area retail padat pengunjung.",
+    "overview": "Pemasangan sistem HVAC lengkap untuk gedung retail dengan kapasitas pengunjung tinggi.",
+    "solution": "Menggunakan sistem ducting modular untuk efisiensi ruang dan optimasi distribusi udara.",
+    "image": "/public/assets/images/projects/Project-1.jpeg",
+    "featured": true
   },
   {
-    "title": "Electrical Installation – Commercial Building",
+    "id": 2,
+    "slug": "electrical-commercial-building",
+    "title": "Instalasi Sistem Kelistrikan Gedung Komersial",
+    "category": "Electrical",
+    "location": "Bekasi",
+    "year": "2024",
     "description": "Instalasi sistem kelistrikan lengkap untuk gedung komersial termasuk panel distribusi dan wiring.",
-    "scope": "Panel, Wiring, Power Distribution",
-    "image": "assets/images/projects/Project-2.jpeg"
+    "scope": ["Main Panel Installation", "Wiring System", "Power Distribution"],
+    "challenge": "Koordinasi instalasi dengan sistem bangunan existing tanpa downtime operasional.",
+    "solution": "Implementasi phased installation agar sistem tetap berjalan selama pengerjaan.",
+    "image": "/public/assets/images/projects/Project-2.jpeg",
+    "featured": false
   },
   {
-    "title": "Maintenance AC – Multi Unit System",
+    "id": 3,
+    "slug": "ac-maintenance-multi-unit",
+    "title": "Maintenance AC Multi Unit System",
+    "category": "Maintenance",
+    "location": "Bandung",
+    "year": "2024",
     "description": "Perawatan sistem AC multi-unit untuk menjaga performa pendinginan tetap optimal.",
-    "scope": "Cleaning, Service, Optimization",
-    "image": "assets/images/projects/Project-3.jpeg"
+    "scope": ["Cleaning", "Service", "System Optimization"],
+    "challenge": "Penurunan performa AC pada sistem multi-unit di jam operasional penuh.",
+    "solution": "Scheduled maintenance dan recalibration sistem pendingin.",
+    "image": "/public/assets/images/projects/Project-3.jpeg",
+    "featured": false
   }
 ]
