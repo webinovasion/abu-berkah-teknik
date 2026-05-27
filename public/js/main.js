@@ -196,7 +196,7 @@ function renderProjects(projects) {
   container.innerHTML = display.map((project) => `
 
     <a
-      href="/public/pages/Proyek/detail.html?slug=${escapeHTML(project.slug)}"
+      href="/pages/Proyek/detail.html?slug=${escapeHTML(project.slug)}"
       class="group flex flex-col bg-white rounded-2xl border border-neutral-200 overflow-hidden hover:border-neutral-300 hover:-translate-y-1 hover:shadow-soft transition-all duration-300"
     >
       <!-- IMAGE -->
@@ -245,7 +245,7 @@ async function loadProjects() {
   const container = document.getElementById("portfolioGrid");
 
   try {
-    const response = await fetch("/src/data/projects.json");
+    const response = await fetch("/data/projects.json");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
     const projects = await response.json();
@@ -564,7 +564,7 @@ async function loadProjectsPage() {
   `;
 
   try {
-    const res = await fetch("/src/data/projects.json");
+    const res = await fetch("/data/projects.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const projects = await res.json();

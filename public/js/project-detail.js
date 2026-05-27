@@ -201,7 +201,7 @@ async function loadProjectDetail() {
   }
 
   try {
-    const res = await fetch("/src/data/projects.json");
+    const res = await fetch("/data/projects.json");
 
     if (!res.ok) {
       throw new Error(`HTTP ${res.status}`);

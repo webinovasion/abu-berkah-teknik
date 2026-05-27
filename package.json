@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
+    "dev": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.5.0",
