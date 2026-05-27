@@ -31,9 +31,9 @@ async function loadComponent(id, file, callback = null) {
 // GLOBAL COMPONENT PATH
 // =========================
 const pages = {
-  navbar: "/public/components/navbar.html",
-  content: "/public/components/index.html",
-  footer: "/public/components/footer.html",
+  navbar: "/components/navbar.html",
+  content: "/components/index.html",
+  footer: "/components/footer.html",
 };
 
 
