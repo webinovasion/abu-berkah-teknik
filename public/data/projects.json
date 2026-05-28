@@ -11,7 +11,7 @@
     "challenge": "Ruang plafon terbatas dengan kebutuhan airflow tinggi untuk area retail padat pengunjung.",
     "overview": "Pemasangan sistem HVAC lengkap untuk gedung retail dengan kapasitas pengunjung tinggi.",
     "solution": "Menggunakan sistem ducting modular untuk efisiensi ruang dan optimasi distribusi udara.",
-    "image": "/public/assets/images/projects/Project-1.jpeg",
+    "image": "/assets/images/projects/Project-1.jpeg",
     "featured": true
   },
   {
@@ -25,7 +25,7 @@
     "scope": ["Main Panel Installation", "Wiring System", "Power Distribution"],
     "challenge": "Koordinasi instalasi dengan sistem bangunan existing tanpa downtime operasional.",
     "solution": "Implementasi phased installation agar sistem tetap berjalan selama pengerjaan.",
-    "image": "/public/assets/images/projects/Project-2.jpeg",
+    "image": "/assets/images/projects/Project-2.jpeg",
     "featured": false
   },
   {
@@ -39,7 +39,7 @@
     "scope": ["Cleaning", "Service", "System Optimization"],
     "challenge": "Penurunan performa AC pada sistem multi-unit di jam operasional penuh.",
     "solution": "Scheduled maintenance dan recalibration sistem pendingin.",
-    "image": "/public/assets/images/projects/Project-3.jpeg",
+    "image": "/assets/images/projects/Project-3.jpeg",
     "featured": false
   }
 ]
