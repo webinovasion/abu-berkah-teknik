@@ -1,0 +1,16 @@
+# robots.txt — CV Abu Berkah Teknik
+# https://abuberkahteknik.com
+
+User-agent: *
+Allow: /
+
+# Blokir akses ke file data dan aset internal
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /public/css/
+Disallow: /public/js/
+
+# Izinkan crawler mengakses aset gambar untuk indexing
+Allow: /public/assets/images/
+
+Sitemap: https://abuberkahteknik.com/sitemap.xml
