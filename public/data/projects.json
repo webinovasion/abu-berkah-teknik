@@ -1,45 +1,287 @@
 [
   {
     "id": 1,
-    "slug": "hvac-retail-project",
-    "title": "Instalasi HVAC & Ducting untuk Retail Modern",
+    "slug": "sun-plaza-medan-project",
+    "title": "Retail HVAC & Mechanical Project",
     "category": "HVAC",
-    "location": "Jakarta",
-    "year": "2025",
-    "description": "Pengerjaan sistem ventilasi dan pendingin untuk retail modern dengan fokus efisiensi distribusi udara dan stabilitas operasional.",
-    "scope": ["Ducting Installation", "AC System", "Airflow Balancing"],
-    "challenge": "Ruang plafon terbatas dengan kebutuhan airflow tinggi untuk area retail padat pengunjung.",
-    "overview": "Pemasangan sistem HVAC lengkap untuk gedung retail dengan kapasitas pengunjung tinggi.",
-    "solution": "Menggunakan sistem ducting modular untuk efisiensi ruang dan optimasi distribusi udara.",
+    "location": "Sun Plaza Medan",
+    "year": "2024",
+    "description": "Pengerjaan sistem HVAC dan mechanical support untuk area retail modern dengan fokus kenyamanan dan efisiensi operasional.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Penyesuaian sistem dilakukan pada area retail aktif dengan ruang kerja terbatas.",
+    "solution": "Optimalisasi jalur instalasi dan penyesuaian airflow untuk menjaga performa sistem tetap stabil.",
+    "overview": "Pengerjaan HVAC dan mechanical support pada area retail di pusat perbelanjaan modern.",
     "image": "/assets/images/projects/Project-1.jpeg",
     "featured": true
   },
   {
     "id": 2,
-    "slug": "electrical-commercial-building",
-    "title": "Instalasi Sistem Kelistrikan Gedung Komersial",
-    "category": "Electrical",
-    "location": "Bekasi",
+    "slug": "dp-mall-semarang-project",
+    "title": "Commercial HVAC Installation",
+    "category": "HVAC",
+    "location": "DP Mall Semarang",
     "year": "2024",
-    "description": "Instalasi sistem kelistrikan lengkap untuk gedung komersial termasuk panel distribusi dan wiring.",
-    "scope": ["Main Panel Installation", "Wiring System", "Power Distribution"],
-    "challenge": "Koordinasi instalasi dengan sistem bangunan existing tanpa downtime operasional.",
-    "solution": "Implementasi phased installation agar sistem tetap berjalan selama pengerjaan.",
+    "description": "Instalasi dan optimasi sistem HVAC untuk kebutuhan area komersial dan retail.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Koordinasi pekerjaan dilakukan tanpa mengganggu aktivitas operasional mall.",
+    "solution": "Pengerjaan dilakukan secara bertahap untuk menjaga stabilitas operasional area.",
+    "overview": "Proyek instalasi dan maintenance HVAC pada bangunan komersial modern.",
     "image": "/assets/images/projects/Project-2.jpeg",
     "featured": false
   },
   {
     "id": 3,
-    "slug": "ac-maintenance-multi-unit",
-    "title": "Maintenance AC Multi Unit System",
-    "category": "Maintenance",
-    "location": "Bandung",
+    "slug": "emporium-pluit-project",
+    "title": "Mechanical & Air System Project",
+    "category": "Mechanical",
+    "location": "Emporium Pluit",
     "year": "2024",
-    "description": "Perawatan sistem AC multi-unit untuk menjaga performa pendinginan tetap optimal.",
-    "scope": ["Cleaning", "Service", "System Optimization"],
-    "challenge": "Penurunan performa AC pada sistem multi-unit di jam operasional penuh.",
-    "solution": "Scheduled maintenance dan recalibration sistem pendingin.",
+    "description": "Pengerjaan sistem mechanical dan distribusi udara untuk area retail dan komersial.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Area kerja memiliki keterbatasan akses dan waktu pengerjaan yang ketat.",
+    "solution": "Optimalisasi proses instalasi dengan penyesuaian layout dan workflow lapangan.",
+    "overview": "Mechanical support project untuk area retail di pusat perbelanjaan.",
     "image": "/assets/images/projects/Project-3.jpeg",
     "featured": false
+  },
+  {
+    "id": 4,
+    "slug": "kem-chicks-pik-project",
+    "title": "Retail Engineering Support",
+    "category": "Mechanical",
+    "location": "Kem Chicks PIK",
+    "year": "2025",
+    "description": "Support engineering dan maintenance sistem pendukung retail modern.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Menyesuaikan pengerjaan dengan operasional tenant yang tetap berjalan.",
+    "solution": "Implementasi pengerjaan bertahap dan penjadwalan teknis yang efisien.",
+    "overview": "Engineering support untuk kebutuhan retail dan commercial area.",
+    "image": "/assets/images/projects/Project-4.jpeg",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "slug": "puri-indah-mall-project",
+    "title": "Commercial Maintenance Project",
+    "category": "Maintenance",
+    "location": "Puri Indah Mall",
+    "year": "2025",
+    "description": "Maintenance dan optimasi sistem mechanical serta HVAC pada area retail.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Menjaga kestabilan sistem selama proses maintenance berlangsung.",
+    "solution": "Penerapan pengecekan berkala dan optimasi sistem distribusi udara.",
+    "overview": "Maintenance project untuk area retail dan commercial building.",
+    "image": "/assets/images/projects/Project-5.jpeg",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "slug": "plaza-ambarrukmo-project",
+    "title": "Retail Mechanical Installation",
+    "category": "Mechanical",
+    "location": "Plaza Ambarrukmo",
+    "year": "2025",
+    "description": "Pengerjaan instalasi mechanical system untuk kebutuhan area retail modern.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Kebutuhan pengerjaan cepat dengan koordinasi lintas area.",
+    "solution": "Pengaturan workflow lapangan yang efisien untuk mempercepat proses pengerjaan.",
+    "overview": "Mechanical installation project untuk area komersial dan retail.",
+    "image": "/assets/images/projects/Project-6.jpeg",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "slug": "lippo-puri-st-moritz-project",
+    "title": "HVAC Optimization Project",
+    "category": "HVAC",
+    "location": "Lippo Puri St. Moritz",
+    "year": "2025",
+    "description": "Optimasi sistem HVAC dan airflow untuk menunjang kenyamanan area retail.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Distribusi udara perlu disesuaikan dengan kebutuhan area operasional.",
+    "solution": "Rekalibrasi airflow dan penyesuaian sistem distribusi udara.",
+    "overview": "HVAC optimization project untuk pusat perbelanjaan modern.",
+    "image": "/assets/images/projects/Project-7.jpeg",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "slug": "pik-avenue-project",
+    "title": "Commercial Engineering Project",
+    "category": "Electrical",
+    "location": "PIK Avenue",
+    "year": "2026",
+    "description": "Support engineering dan instalasi sistem pendukung operasional retail.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Pengerjaan dilakukan pada area aktif dengan mobilitas tinggi.",
+    "solution": "Penerapan metode kerja bertahap untuk menjaga keamanan dan efisiensi pengerjaan.",
+    "overview": "Engineering support project untuk kawasan retail modern.",
+    "image": "/assets/images/projects/Project-8.jpeg",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "slug": "palembang-indah-mall-project",
+    "title": "Retail HVAC Service Project",
+    "category": "HVAC",
+    "location": "Palembang Indah Mall",
+    "year": "2025",
+    "description": "Service dan maintenance sistem HVAC untuk menunjang kenyamanan pengunjung retail.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Menjaga performa sistem pendingin pada area operasional penuh.",
+    "solution": "Pengecekan berkala dan optimasi sistem pendingin secara menyeluruh.",
+    "overview": "HVAC service project untuk area retail dan komersial.",
+    "image": "/assets/images/projects/Project-9.jpeg",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "slug": "lippo-mall-puri-project",
+    "title": "Mechanical Support & Maintenance",
+    "category": "Maintenance",
+    "location": "Lippo Mall Puri",
+    "year": "2025",
+    "description": "Maintenance dan support mechanical system untuk kebutuhan retail modern.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Koordinasi teknis dilakukan di area dengan aktivitas operasional tinggi.",
+    "solution": "Penjadwalan maintenance secara efisien untuk meminimalkan gangguan operasional.",
+    "overview": "Mechanical maintenance project untuk area komersial.",
+    "image": "/assets/images/projects/Project-10.jpeg",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "slug": "senayan-city-project",
+    "title": "Commercial HVAC Support",
+    "category": "HVAC",
+    "location": "Senayan City",
+    "year": "2026",
+    "description": "Support sistem HVAC dan mechanical engineering untuk kebutuhan retail premium.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Standar kualitas dan kestabilan sistem harus tetap terjaga selama operasional berlangsung.",
+    "solution": "Optimalisasi distribusi udara dan monitoring performa sistem secara berkala.",
+    "overview": "HVAC support project untuk pusat perbelanjaan premium.",
+    "image": "/assets/images/projects/Project-11.jpeg",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "slug": "23-paskal-semarang-project",
+    "title": "Mechanical Engineering Service",
+    "category": "Mechanical",
+    "location": "23 Mall Semarang",
+    "year": "2026",
+    "description": "Pengerjaan mechanical engineering dan service support untuk area retail modern.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Kebutuhan pengerjaan cepat dengan area kerja terbatas.",
+    "solution": "Optimalisasi workflow teknis dan pengaturan area kerja yang efisien.",
+    "overview": "Mechanical engineering project untuk area komersial dan retail.",
+    "image": "/assets/images/projects/Project-12.jpeg",
+    "featured": false
+  },
+  {
+    "id": 13,
+    "slug": "tunjungan-plaza-project",
+    "title": "Retail Engineering Maintenance",
+    "category": "Maintenance",
+    "location": "Tunjungan Plaza",
+    "year": "2025",
+    "description": "Maintenance sistem engineering untuk menunjang operasional retail dan komersial.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Menjaga performa sistem di area dengan traffic pengunjung tinggi.",
+    "solution": "Penerapan preventive maintenance dan monitoring sistem berkala.",
+    "overview": "Engineering maintenance project untuk pusat perbelanjaan modern.",
+    "image": "/assets/images/projects/Project-13.jpeg",
+    "featured": false
+  },
+  {
+    "id": 14,
+    "slug": "ciputra-mall-project",
+    "title": "Commercial Mechanical Project",
+    "category": "Mechanical",
+    "location": "Ciputra Mall Semarang",
+    "year": "2025",
+    "description": "Pengerjaan sistem mechanical dan support engineering untuk area retail.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Koordinasi pengerjaan dilakukan pada area dengan aktivitas operasional aktif.",
+    "solution": "Pengaturan tahapan pengerjaan untuk menjaga efisiensi dan keamanan area.",
+    "overview": "Mechanical support project untuk area komersial modern.",
+    "image": "/assets/images/projects/Project-14.jpeg",
+    "featured": false
+  },
+  {
+    "id": 15,
+    "slug": "hang-nadim-batam-project",
+    "title": "Airport Engineering Support",
+    "category": "Electrical",
+    "location": "Bandara Hang Nadim Batam",
+    "year": "2025",
+    "description": "Support engineering dan maintenance sistem pendukung operasional area publik.",
+    "scope": [
+      "Installation",
+      "Service",
+      "System Optimization"
+    ],
+    "challenge": "Pengerjaan membutuhkan standar keamanan dan koordinasi operasional yang tinggi.",
+    "solution": "Implementasi prosedur kerja terstruktur untuk menjaga keamanan dan kestabilan sistem.",
+    "overview": "Engineering support project untuk fasilitas publik dan komersial.",
+    "image": "/assets/images/projects/Project-15.jpeg",
+    "featured": true
   }
 ]
