@@ -15,7 +15,7 @@
     "challenge": "Penyesuaian sistem dilakukan pada area retail aktif dengan ruang kerja terbatas.",
     "solution": "Optimalisasi jalur instalasi dan penyesuaian airflow untuk menjaga performa sistem tetap stabil.",
     "overview": "Pengerjaan HVAC dan mechanical support pada area retail di pusat perbelanjaan modern.",
-    "image": "/assets/images/projects/Project-1.jpeg",
+    "image": "/images/projects/Project-1.jpeg",
     "featured": true
   },
   {
@@ -34,7 +34,7 @@
     "challenge": "Koordinasi pekerjaan dilakukan tanpa mengganggu aktivitas operasional mall.",
     "solution": "Pengerjaan dilakukan secara bertahap untuk menjaga stabilitas operasional area.",
     "overview": "Proyek instalasi dan maintenance HVAC pada bangunan komersial modern.",
-    "image": "/assets/images/projects/Project-2.jpeg",
+    "image": "/images/projects/Project-2.jpeg",
     "featured": false
   },
   {
@@ -53,7 +53,7 @@
     "challenge": "Area kerja memiliki keterbatasan akses dan waktu pengerjaan yang ketat.",
     "solution": "Optimalisasi proses instalasi dengan penyesuaian layout dan workflow lapangan.",
     "overview": "Mechanical support project untuk area retail di pusat perbelanjaan.",
-    "image": "/assets/images/projects/Project-3.jpeg",
+    "image": "/images/projects/Project-3.jpeg",
     "featured": false
   },
   {
@@ -72,7 +72,7 @@
     "challenge": "Menyesuaikan pengerjaan dengan operasional tenant yang tetap berjalan.",
     "solution": "Implementasi pengerjaan bertahap dan penjadwalan teknis yang efisien.",
     "overview": "Engineering support untuk kebutuhan retail dan commercial area.",
-    "image": "/assets/images/projects/Project-4.jpeg",
+    "image": "/images/projects/Project-4.jpeg",
     "featured": false
   },
   {
@@ -91,7 +91,7 @@
     "challenge": "Menjaga kestabilan sistem selama proses maintenance berlangsung.",
     "solution": "Penerapan pengecekan berkala dan optimasi sistem distribusi udara.",
     "overview": "Maintenance project untuk area retail dan commercial building.",
-    "image": "/assets/images/projects/Project-5.jpeg",
+    "image": "/images/projects/Project-5.jpeg",
     "featured": false
   },
   {
@@ -110,7 +110,7 @@
     "challenge": "Kebutuhan pengerjaan cepat dengan koordinasi lintas area.",
     "solution": "Pengaturan workflow lapangan yang efisien untuk mempercepat proses pengerjaan.",
     "overview": "Mechanical installation project untuk area komersial dan retail.",
-    "image": "/assets/images/projects/Project-6.jpeg",
+    "image": "/images/projects/Project-6.jpeg",
     "featured": false
   },
   {
@@ -129,7 +129,7 @@
     "challenge": "Distribusi udara perlu disesuaikan dengan kebutuhan area operasional.",
     "solution": "Rekalibrasi airflow dan penyesuaian sistem distribusi udara.",
     "overview": "HVAC optimization project untuk pusat perbelanjaan modern.",
-    "image": "/assets/images/projects/Project-7.jpeg",
+    "image": "/images/projects/Project-7.jpeg",
     "featured": false
   },
   {
@@ -148,7 +148,7 @@
     "challenge": "Pengerjaan dilakukan pada area aktif dengan mobilitas tinggi.",
     "solution": "Penerapan metode kerja bertahap untuk menjaga keamanan dan efisiensi pengerjaan.",
     "overview": "Engineering support project untuk kawasan retail modern.",
-    "image": "/assets/images/projects/Project-8.jpeg",
+    "image": "/images/projects/Project-8.jpeg",
     "featured": false
   },
   {
@@ -167,7 +167,7 @@
     "challenge": "Menjaga performa sistem pendingin pada area operasional penuh.",
     "solution": "Pengecekan berkala dan optimasi sistem pendingin secara menyeluruh.",
     "overview": "HVAC service project untuk area retail dan komersial.",
-    "image": "/assets/images/projects/Project-9.jpeg",
+    "image": "/images/projects/Project-9.jpeg",
     "featured": false
   },
   {
@@ -186,7 +186,7 @@
     "challenge": "Koordinasi teknis dilakukan di area dengan aktivitas operasional tinggi.",
     "solution": "Penjadwalan maintenance secara efisien untuk meminimalkan gangguan operasional.",
     "overview": "Mechanical maintenance project untuk area komersial.",
-    "image": "/assets/images/projects/Project-10.jpeg",
+    "image": "/images/projects/Project-10.jpeg",
     "featured": false
   },
   {
@@ -205,7 +205,7 @@
     "challenge": "Standar kualitas dan kestabilan sistem harus tetap terjaga selama operasional berlangsung.",
     "solution": "Optimalisasi distribusi udara dan monitoring performa sistem secara berkala.",
     "overview": "HVAC support project untuk pusat perbelanjaan premium.",
-    "image": "/assets/images/projects/Project-11.jpeg",
+    "image": "/images/projects/Project-11.jpeg",
     "featured": false
   },
   {
@@ -224,7 +224,7 @@
     "challenge": "Kebutuhan pengerjaan cepat dengan area kerja terbatas.",
     "solution": "Optimalisasi workflow teknis dan pengaturan area kerja yang efisien.",
     "overview": "Mechanical engineering project untuk area komersial dan retail.",
-    "image": "/assets/images/projects/Project-12.jpeg",
+    "image": "/images/projects/Project-12.jpeg",
     "featured": false
   },
   {
@@ -243,7 +243,7 @@
     "challenge": "Menjaga performa sistem di area dengan traffic pengunjung tinggi.",
     "solution": "Penerapan preventive maintenance dan monitoring sistem berkala.",
     "overview": "Engineering maintenance project untuk pusat perbelanjaan modern.",
-    "image": "/assets/images/projects/Project-13.jpeg",
+    "image": "/images/projects/Project-13.jpeg",
     "featured": false
   },
   {
@@ -262,7 +262,7 @@
     "challenge": "Koordinasi pengerjaan dilakukan pada area dengan aktivitas operasional aktif.",
     "solution": "Pengaturan tahapan pengerjaan untuk menjaga efisiensi dan keamanan area.",
     "overview": "Mechanical support project untuk area komersial modern.",
-    "image": "/assets/images/projects/Project-14.jpeg",
+    "image": "/images/projects/Project-14.jpeg",
     "featured": false
   },
   {
@@ -281,7 +281,7 @@
     "challenge": "Pengerjaan membutuhkan standar keamanan dan koordinasi operasional yang tinggi.",
     "solution": "Implementasi prosedur kerja terstruktur untuk menjaga keamanan dan kestabilan sistem.",
     "overview": "Engineering support project untuk fasilitas publik dan komersial.",
-    "image": "/assets/images/projects/Project-15.jpeg",
+    "image": "/images/projects/Project-15.jpeg",
     "featured": true
   }
 ]
