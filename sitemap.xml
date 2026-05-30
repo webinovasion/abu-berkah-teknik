@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- BERANDA -->
+  <url>
+    <loc>https://abuberkahteknik.com/</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- LAYANAN -->
+  <url>
+    <loc>https://abuberkahteknik.com/pages/layanan/</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- PROYEK -->
+  <url>
+    <loc>https://abuberkahteknik.com/pages/proyek/</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- DETAIL PROYEK -->
+  <url>
+    <loc>https://abuberkahteknik.com/pages/proyek/detail.html?slug=hvac-retail-project</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://abuberkahteknik.com/pages/proyek/detail.html?slug=electrical-commercial-building</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://abuberkahteknik.com/pages/proyek/detail.html?slug=ac-maintenance-multi-unit</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- TENTANG -->
+  <url>
+    <loc>https://abuberkahteknik.com/pages/tentang/</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- KONTAK -->
+  <url>
+    <loc>https://abuberkahteknik.com/pages/kontak/</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
