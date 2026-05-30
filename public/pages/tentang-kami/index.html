@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- PRIMARY SEO -->
-    <title>Tentang Kami | CV Abu Berkah Teknik</title>
+    <!-- Tentang -->
+    <title>Tentang CV Abu Berkah Teknik | Engineering Contractor</title>
     <meta
       name="description"
-      content="CV Abu Berkah Teknik menyediakan layanan instalasi mekanikal, elektrikal, HVAC, plumbing, maintenance AC, dan pengadaan barang teknik untuk kebutuhan industri, komersial, dan retail di area Jabodetabek."
+      content="CV Abu Berkah Teknik adalah kontraktor engineering berpengalaman 10+ tahun di bidang HVAC, mekanikal, elektrikal, dan maintenance area Jabodetabek."
     />
     <meta
       name="keywords"
@@ -44,7 +45,23 @@
     <!-- THEME & PWA -->
     <meta name="theme-color" content="#0F172A" />
 
-    <!-- BERANDA & TENTANG -->
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="/assets/images/logo/Logo-ABT.png" />
+    <link rel="apple-touch-icon" href="/assets/images/logo/Logo-ABT.png" />
+    <link rel="shortcut icon" href="/assets/images/logo/Logo-ABT.png" type="image/x-icon" />
+
+    <!-- PRELOAD font files -->
+    <link rel="preload" href="/assets/icons/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/icons/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- FONT AWESOME LOCAL -->
+    <link rel="stylesheet" href="/assets/icons/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="/assets/icons/css/solid.min.css" />
+    <link rel="stylesheet" href="/assets/icons/css/brands.min.css" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="/css/output.css" />
+    <!--TENTANG -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -54,11 +71,14 @@
         "url": "https://abuberkahteknik.com",
         "telephone": "+6287886601667",
         "email": "abuberkahteknik@gmail.com",
+        "currenciesAccepted": "IDR",
+        "priceRange": "Rp",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Bekasi Utara",
           "addressLocality": "Kota Bekasi",
           "addressRegion": "Jawa Barat",
+          "postalCode": "17121",
           "addressCountry": "ID"
         },
         "geo": {
@@ -66,7 +86,13 @@
           "latitude": -6.1944,
           "longitude": 106.9964
         },
-        "areaServed": ["Jakarta", "Bogor", "Depok", "Tangerang", "Bekasi"],
+        "areaServed": [
+          { "@type": "City", "name": "Jakarta" },
+          { "@type": "City", "name": "Bogor" },
+          { "@type": "City", "name": "Depok" },
+          { "@type": "City", "name": "Tangerang" },
+          { "@type": "City", "name": "Bekasi" }
+        ],
         "serviceType": [
           "HVAC Installation",
           "Electrical Installation",
@@ -92,23 +118,6 @@
         "sameAs": []
       }
     </script>
-
-    <!-- FAVICON -->
-    <link rel="icon" type="image" href="/assets/images/logo/Logo-ABT.webp" />
-    <link rel="apple-touch-icon" href="/assets/images/logo/Logo-ABT.webp" />
-    <link rel="shortcut icon" href="/assets/images/logo/Logo-ABT.webp" type="image/x-icon" />
-
-    <!-- PRELOAD font files -->
-    <link rel="preload" href="/assets/icons/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/assets/icons/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin />
-
-    <!-- FONT AWESOME LOCAL -->
-    <link rel="stylesheet" href="/assets/icons/css/fontawesome.min.css" />
-    <link rel="stylesheet" href="/assets/icons/css/solid.min.css" />
-    <link rel="stylesheet" href="/assets/icons/css/brands.min.css" />
-
-    <!-- STYLES -->
-    <link rel="stylesheet" href="/css/output.css" />
   </head>
 
   <body class="bg-surface-light font-inter">
