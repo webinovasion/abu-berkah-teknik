@@ -32,7 +32,6 @@ async function loadComponent(id, file, callback = null) {
 // =========================
 const pages = {
   navbar: "/components/navbar.html",
-  content: "/components/index.html",
   footer: "/components/footer.html",
 };
 
@@ -43,8 +42,6 @@ const pages = {
 async function initApp() {
 
   await loadComponent("navbar", pages.navbar, initNavbar);
-
-  await loadComponent("content", pages.content);
 
   await loadComponent("footer", pages.footer);
 
