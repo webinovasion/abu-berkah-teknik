@@ -47,7 +47,7 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
 
       boxShadow: {
