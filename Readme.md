@@ -84,7 +84,7 @@ root/
 ├── index.html                  ← halaman beranda
 ├── tailwind.config.js
 ├── package.json
-└── DOCUMENTATION.md
+└── Readme.md
 ```
 
 ---
@@ -108,10 +108,10 @@ root/
 npm install
 
 # Development — watch mode
-npx tailwindcss -i ./src/input.css -o ./public/css/output.css --watch
+npx tailwindcss -i ./public/input.css -o ./public/css/output.css --watch
 
 # Production build
-npx tailwindcss -i ./src/input.css -o ./public/css/output.css --minify
+npx tailwindcss -i ./public/input.css -o ./public/css/output.css --minify
 ```
 
 ---
@@ -258,7 +258,7 @@ Semua data proyek disimpan di satu file JSON. Struktur per item:
   "scope": ["Ducting Installation", "AC System", "Airflow Balancing"],
   "challenge": "Tantangan teknis yang dihadapi dalam proyek ini.",
   "solution": "Solusi yang diterapkan untuk mengatasi tantangan.",
-  "image": "/public/assets/images/projects/Project-1.jpeg",
+  "image": "/assets/images/projects/Project-1.jpeg",
   "featured": true
 }
 ```
