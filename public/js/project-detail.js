@@ -188,6 +188,36 @@ function renderProjectPage(project) {
   `;
 }
 
+function injectBreadcrumbSchema(project) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Beranda",
+        "item": "https://abuberkahteknik.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Proyek",
+        "item": "https://abuberkahteknik.com/pages/proyek/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": project.title,
+        "item": `https://abuberkahteknik.com/pages/proyek/detail.html?slug=${project.slug}`
+      }
+    ]
+  };
+
+  const el = document.getElementById("breadcrumbSchema");
+  if (el) el.textContent = JSON.stringify(schema, null, 2);
+}
+
 async function loadProjectDetail() {
   const container = document.getElementById("projectContainer");
 
