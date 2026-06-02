@@ -5,7 +5,6 @@ User-agent: *
 Allow: /
 
 # Blokir akses ke file data dan aset internal
-Disallow: /src/
 Disallow: /css/
 Disallow: /js/
 
