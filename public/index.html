@@ -139,9 +139,11 @@
         <!-- Background image — dekoratif, aria-hidden -->
         <img
           src="/assets/images/hero/Hero-Section.webp"
-          alt="Hero Section - Abu Berkah Teknik"
-          aria-hidden="true"
-          loading="lazy"
+          alt=""
+          fetchpriority="high"
+          loading="eager"
+          decoding="async"
+          sizes="100vw"
           class="absolute inset-0 w-full h-full object-cover object-[center_30%] brightness-[0.45] saturate-[0.8]"
         />
 
@@ -220,20 +222,6 @@
               >
               <span class="block text-[10px] sm:text-[11.5px] text-neutral-500 leading-tight">Area Layanan</span>
             </div>
-          </div>
-        </div>
-
-        <!-- Floating badge — dekoratif -->
-        <div
-          aria-hidden="true"
-          class="absolute bottom-12 right-4 sm:right-10 lg:right-16 hidden sm:flex items-center gap-3 bg-primary-dark/75 border border-white/10 rounded-2xl px-4 py-3"
-        >
-          <div class="w-9 h-9 rounded-lg bg-accent-orange/15 flex items-center justify-center flex-shrink-0">
-            <i class="fa-solid fa-shield-halved text-accent-orange text-sm" aria-hidden="true"></i>
-          </div>
-          <div>
-            <div class="text-xs font-bold text-white leading-tight">Bersertifikat</div>
-            <div class="text-[11px] text-neutral-500">ISO &amp; K3 Certified</div>
           </div>
         </div>
       </section>
@@ -533,7 +521,7 @@
               </ul>
 
               <a
-                href="/pages/tentang/"
+                href="/pages/tentang-kami/"
                 class="inline-flex items-center gap-2 px-5 py-3 bg-primary-dark text-white text-sm font-semibold rounded-xl hover:opacity-90 transition-opacity duration-200"
               >
                 Tentang Kami
